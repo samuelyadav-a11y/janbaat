@@ -1,0 +1,44 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+gunicorn==23.0.0
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.13.3
+
+# Validation
+pydantic==2.8.2
+pydantic-settings==2.5.2
+
+# Auth
+python-jose[cryptography]==3.3.0
+
+# Cache & Queue
+redis==5.1.1
+celery[redis]==5.4.0
+
+# AI / ML
+openai==1.40.0
+sentence-transformers==3.0.1
+langdetect==1.0.9
+
+# HTTP client
+httpx==0.27.2
+
+# File uploads
+python-multipart==0.0.12
+
+# Push notifications
+firebase-admin==6.5.0
+
+# Image upload
+cloudinary==1.41.0
+
+# Monitoring
+sentry-sdk[fastapi]==2.14.0
+
+# Utilities
+python-dotenv==1.0.1
+passlib[bcrypt]==1.7.4

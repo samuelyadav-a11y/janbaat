@@ -1,0 +1,14 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 10
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
+
+[scaling]
+minInstances = 1
+maxInstances = 10
+targetCPUPercent = 60
+targetMemoryPercent = 70
